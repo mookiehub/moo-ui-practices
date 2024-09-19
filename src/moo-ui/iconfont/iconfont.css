@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.woff2?t=1725949996288') format('woff2'),
+        url('iconfont.woff?t=1725949996288') format('woff'),
+        url('iconfont.ttf?t=1725949996288') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chakan:before {
+    content: "\e600";
+}
+
+.icon-icon-qingkong:before {
+    content: "\e672";
+}
+
+.icon-jiazai:before {
+    content: "\e634";
+}

@@ -5,8 +5,11 @@ import Header from './components/Header/index.vue';
 import Aside from './components/Aside/index.vue';
 import Main from './components/Main/index.vue';
 import Footer from './components/Footer/index.vue';
+import Button from './components/Button/index.vue';
+import ButtonGroup from './components/ButtonGroup/index.vue';
 
 import './styles/index.scss';
+import './iconfont/iconfont.css';
 
 const components = [
     Row,
@@ -15,7 +18,9 @@ const components = [
     Header,
     Aside,
     Main,
-    Footer
+    Footer,
+    Button,
+    ButtonGroup
 ];
 
 const install = Vue => {
@@ -34,5 +39,7 @@ export {
     Header,
     Aside,
     Main,
-    Footer
+    Footer,
+    Button,
+    ButtonGroup
 };
