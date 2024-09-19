@@ -8,6 +8,9 @@ import Footer from './components/Footer/index.vue';
 import Button from './components/Button/index.vue';
 import ButtonGroup from './components/ButtonGroup/index.vue';
 import Link from './components/Link/index.vue';
+import Radio from './components/Radio/index.vue';
+import RadioGroup from './components/RadioGroup/index.vue';
+import RadioButton from './components/RadioButton/index.vue';
 
 import './styles/index.scss';
 import './iconfont/iconfont.css';
@@ -22,7 +25,10 @@ const components = [
     Footer,
     Button,
     ButtonGroup,
-    Link
+    Link,
+    Radio,
+    RadioGroup,
+    RadioButton
 ];
 
 const install = Vue => {
@@ -44,5 +50,8 @@ export {
     Footer,
     Button,
     ButtonGroup,
-    Link
+    Link,
+    Radio,
+    RadioGroup,
+    RadioButton
 };

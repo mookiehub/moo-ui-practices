@@ -64,7 +64,7 @@ export default {
     color: $regular-text-color;
     font-size: 14px;
     line-height: 1;
-    background-color: #fff;
+    background-color: $background-w;
     padding: 12px 20px;
     border: 1px solid $border-base-color;
     border-radius: $border-radius;
@@ -111,7 +111,7 @@ export default {
         &:hover,
         &:focus {
             color: $primary-color;
-            background-color: #fff;
+            background-color: $background-w;
             border-color: $primary-color;
         }
     }
@@ -124,7 +124,7 @@ export default {
         &:hover,
         &:focus {
             color: $placeholder-color;
-            background-color: #fff;
+            background-color: $background-w;
             border-color: #ebeef5;
         }
         &:active {
@@ -152,17 +152,17 @@ export default {
 
     // 主要按钮
     &--primary {
-        color: #fff;
+        color: $background-w;
         background-color: $primary-color;
         border-color: $primary-color;
         &:hover,
         &:focus {
-            color: #fff;
+            color: $background-w;
             background-color: #66b1ff;
             border-color: #66b1ff;
         }
         &:active {
-            color: #fff;
+            color: $background-w;
             background-color: #3a8ee6;
             border-color: #3a8ee6;
         }
@@ -173,7 +173,7 @@ export default {
             border-color: #b3d8ff;
             &:hover,
             &:focus {
-                color: #fff;
+                color: $background-w;
                 background-color: $primary-color;
                 border-color: $primary-color;
             }
@@ -200,7 +200,7 @@ export default {
 
         &.disabled {
             @mixin colors {
-                color: #fff;
+                color: $background-w;
                 background-color: #a0cfff;
                 border-color: #a0cfff;
             }
@@ -216,17 +216,17 @@ export default {
 
     // 成功按钮
     &--success {
-        color: #fff;
+        color: $background-w;
         background-color: $success-color;
         border-color: $success-color;
         &:hover,
         &:focus {
-            color: #fff;
+            color: $background-w;
             background-color: #85ce61;
             border-color: #85ce61;
         }
         &:active {
-            color: #fff;
+            color: $background-w;
             background-color: #5daf34;
             border-color: #5daf34;
         }
@@ -237,7 +237,7 @@ export default {
             border-color: #c2e7b0;
             &:hover,
             &:focus {
-                color: #fff;
+                color: $background-w;
                 background-color: $success-color;
                 border-color: $success-color;
             }
@@ -264,7 +264,7 @@ export default {
 
         &.disabled {
             @mixin colors {
-                color: #fff;
+                color: $background-w;
                 background-color: #b3e19d;
                 border-color: #b3e19d;
             }
@@ -280,17 +280,17 @@ export default {
 
     // 信息按钮
     &--info {
-        color: #fff;
+        color: $background-w;
         background-color: $info-color;
         border-color: $info-color;
         &:hover,
         &:focus {
-            color: #fff;
+            color: $background-w;
             background-color: #a6a9ad;
             border-color: #a6a9ad;
         }
         &:active {
-            color: #fff;
+            color: $background-w;
             background-color: #82848a;
             border-color: #82848a;
         }
@@ -301,7 +301,7 @@ export default {
             border-color: #d3d4d6;
             &:hover,
             &:focus {
-                color: #fff;
+                color: $background-w;
                 background-color: $info-color;
                 border-color: $info-color;
             }
@@ -328,7 +328,7 @@ export default {
 
         &.disabled {
             @mixin colors {
-                color: #fff;
+                color: $background-w;
                 background-color: #c8c9cc;
                 border-color: #c8c9cc;
             }
@@ -344,17 +344,17 @@ export default {
 
     // 警告按钮
     &--warning {
-        color: #fff;
+        color: $background-w;
         background-color: $warning-color;
         border-color: $warning-color;
         &:hover,
         &:focus {
-            color: #fff;
+            color: $background-w;
             background-color: #ebb563;
             border-color: #ebb563;
         }
         &:active {
-            color: #fff;
+            color: $background-w;
             background-color: #cf9236;
             border-color: #cf9236;
         }
@@ -365,7 +365,7 @@ export default {
             border-color: #f5dab1;
             &:hover,
             &:focus {
-                color: #fff;
+                color: $background-w;
                 background-color: $warning-color;
                 border-color: $warning-color;
             }
@@ -392,7 +392,7 @@ export default {
 
         &.disabled {
             @mixin colors {
-                color: #fff;
+                color: $background-w;
                 background-color: #f3d19e;
                 border-color: #f3d19e;
             }
@@ -408,17 +408,17 @@ export default {
 
     // 危险按钮
     &--danger {
-        color: #fff;
+        color: $background-w;
         background-color: $danger-color;
         border-color: $danger-color;
         &:hover,
         &:focus {
-            color: #fff;
+            color: $background-w;
             background-color: #f78989;
             border-color: #f78989;
         }
         &:active {
-            color: #fff;
+            color: $background-w;
             background-color: #dd6161;
             border-color: #dd6161;
         }
@@ -429,7 +429,7 @@ export default {
             border-color: #fbc4c4;
             &:hover,
             &:focus {
-                color: #fff;
+                color: $background-w;
                 background-color: $danger-color;
                 border-color: $danger-color;
             }
@@ -456,7 +456,7 @@ export default {
 
         &.disabled {
             @mixin colors {
-                color: #fff;
+                color: $background-w;
                 background-color: #fab6b6;
                 border-color: #fab6b6;
             }
