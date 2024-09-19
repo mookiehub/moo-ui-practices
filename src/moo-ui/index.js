@@ -7,6 +7,7 @@ import Main from './components/Main/index.vue';
 import Footer from './components/Footer/index.vue';
 import Button from './components/Button/index.vue';
 import ButtonGroup from './components/ButtonGroup/index.vue';
+import Link from './components/Link/index.vue';
 
 import './styles/index.scss';
 import './iconfont/iconfont.css';
@@ -20,7 +21,8 @@ const components = [
     Main,
     Footer,
     Button,
-    ButtonGroup
+    ButtonGroup,
+    Link
 ];
 
 const install = Vue => {
@@ -41,5 +43,6 @@ export {
     Main,
     Footer,
     Button,
-    ButtonGroup
+    ButtonGroup,
+    Link
 };
