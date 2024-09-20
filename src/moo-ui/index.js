@@ -11,6 +11,9 @@ import Link from './components/Link/index.vue';
 import Radio from './components/Radio/index.vue';
 import RadioGroup from './components/RadioGroup/index.vue';
 import RadioButton from './components/RadioButton/index.vue';
+import Checkbox from './components/Checkbox/index.vue';
+import CheckboxGroup from './components/CheckboxGroup/index.vue';
+import CheckboxButton from './components/CheckboxButton/index.vue';
 
 import './styles/index.scss';
 import './iconfont/iconfont.css';
@@ -28,7 +31,10 @@ const components = [
     Link,
     Radio,
     RadioGroup,
-    RadioButton
+    RadioButton,
+    Checkbox,
+    CheckboxGroup,
+    CheckboxButton
 ];
 
 const install = Vue => {
@@ -53,5 +59,8 @@ export {
     Link,
     Radio,
     RadioGroup,
-    RadioButton
+    RadioButton,
+    Checkbox,
+    CheckboxGroup,
+    CheckboxButton
 };
