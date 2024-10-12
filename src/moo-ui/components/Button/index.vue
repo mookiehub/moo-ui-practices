@@ -501,19 +501,10 @@ export default {
     }
 
     .moo-button__loading-icon {
-        @keyframes rotating {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(1turn);
-            }
-        }
-
         font-size: inherit;
         display: inline-block;
         margin-right: 5px;
-        animation: rotating 2s linear infinite;
+        animation: $loading-animation;
     }
 }
 </style>

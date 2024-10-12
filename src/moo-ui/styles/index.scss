@@ -1,3 +1,12 @@
 [class*="moo-"] {
     box-sizing: border-box;
 }
+ul[class*="moo-"] {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="password"]::-ms-reveal {
+    display: none;
+}

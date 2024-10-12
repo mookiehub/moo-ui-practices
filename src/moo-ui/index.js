@@ -14,6 +14,9 @@ import RadioButton from './components/RadioButton/index.vue';
 import Checkbox from './components/Checkbox/index.vue';
 import CheckboxGroup from './components/CheckboxGroup/index.vue';
 import CheckboxButton from './components/CheckboxButton/index.vue';
+import Input from './components/Input/index.vue';
+import Textarea from './components/Textarea/index.vue';
+import Autocomplete from './components/Autocomplete/index.vue';
 
 import './styles/index.scss';
 import './iconfont/iconfont.css';
@@ -34,7 +37,10 @@ const components = [
     RadioButton,
     Checkbox,
     CheckboxGroup,
-    CheckboxButton
+    CheckboxButton,
+    Input,
+    Textarea,
+    Autocomplete
 ];
 
 const install = Vue => {
@@ -62,5 +68,8 @@ export {
     RadioButton,
     Checkbox,
     CheckboxGroup,
-    CheckboxButton
+    CheckboxButton,
+    Input,
+    Textarea,
+    Autocomplete
 };

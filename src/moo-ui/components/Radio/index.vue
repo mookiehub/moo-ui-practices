@@ -190,7 +190,7 @@ export default {
         cursor: not-allowed;
 
         .moo-radio__control {
-            background-color: #f5f7fa;
+            background-color: $disabled-bgcolor;
             &:hover {
                 border-color: $border-base-color;
             }

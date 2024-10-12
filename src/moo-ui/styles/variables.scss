@@ -27,4 +27,18 @@ $border-extralight-color: #f2f6fc;
 $background-b: #000;
 $background-w: #fff;
 
+$hover-bgcolor: #f5f7fa;
+$disabled-bgcolor: #f5f7fa;
+
 $border-radius: 4px;
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+$loading-animation: rotating 2s linear infinite;
