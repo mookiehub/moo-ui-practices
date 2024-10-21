@@ -239,7 +239,6 @@ export default {
         line-height: normal;
         display: flex;
         align-items: center;
-        margin-left: 7px;
     }
     .moo-input__icon {
         color: $placeholder-color;
@@ -252,6 +251,9 @@ export default {
             color: $regular-text-color;
         }
 
+        &:first-child {
+            margin-left: 7px;
+        }
         &:last-child {
             margin-right: -7px;
         }
@@ -333,6 +335,7 @@ export default {
     }
 
     &.disabled {
+        color: $placeholder-color;
         background-color: $disabled-bgcolor;
         cursor: not-allowed;
 

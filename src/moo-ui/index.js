@@ -17,6 +17,7 @@ import CheckboxButton from './components/CheckboxButton/index.vue';
 import Input from './components/Input/index.vue';
 import Textarea from './components/Textarea/index.vue';
 import Autocomplete from './components/Autocomplete/index.vue';
+import InputNumber from './components/InputNumber/index.vue';
 
 import './styles/index.scss';
 import './iconfont/iconfont.css';
@@ -40,7 +41,8 @@ const components = [
     CheckboxButton,
     Input,
     Textarea,
-    Autocomplete
+    Autocomplete,
+    InputNumber
 ];
 
 const install = Vue => {
@@ -71,5 +73,6 @@ export {
     CheckboxButton,
     Input,
     Textarea,
-    Autocomplete
+    Autocomplete,
+    InputNumber
 };
